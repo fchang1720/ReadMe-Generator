@@ -6,7 +6,7 @@ const inquirer = require('inquirer')
 // function to generate readme.The markdown is combined below as well.
 
 const generateReadMe = ({title, description, installation, usage, licenseBadge, contributions, tests, questionsGit, questionsEmail}) =>
-`# ${title} ![License](https://img.shields.io/badge/License-MIT-yellowgreen)  
+`# ${title} ![License](https://img.shields.io/badge/${licenseBadge})  
 
 ## TableofContents  
 
@@ -28,7 +28,7 @@ ${installation}
 ${usage}  
 
 ## [License](#license)  
-This product is licensed under: ${licenseBadge} ![License](https://img.shields.io/badge/License-MIT-yellowgreen)  
+This product is licensed under: ![License](https://img.shields.io/badge/${licenseBadge})  
 
 ## [Contributions](#contributions)  
 ${contributions}  
@@ -64,9 +64,10 @@ inquirer
         message: "How do you use your application?"
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'licenseBadge',
-        message: "What is this product licensed under?"
+        message: "choose your license badge type",
+        choices: ['License-MIT-yellowgreen', 'License-Apache_2.0-blue.svg', 'License-BSD_3--Clause-blue.svg']
     },
     {
         type: 'input',

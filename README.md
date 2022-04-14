@@ -11,7 +11,8 @@
 *[Questions](#questions)  
 
 ## [Description](#description)  
-Generates a readme.md file based on developer input  
+Generates a readme.md file based on developer input.  
+See a walkthrough video here: https://drive.google.com/file/d/1Ffyf4SmSfcZU9USPuTRMJlx1b_rgqMIX/view  
 
 ## [Installation](#installation)  
 Make sure packages are installed before running on terminal  
