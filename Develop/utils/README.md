@@ -29,6 +29,5 @@ N/A
 N/A  
 
 ## [Questions](#questions)  
-If you have questions, vist my GitHub profile at https://github.com/fchang1720  
-or email me at fchang1720@gmail.com
-
+If you have questions, vist my GitHub profile at github/fake  
+or email me at fake@fake.com
